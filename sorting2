@@ -1,0 +1,32 @@
+public class Parts 
+{
+  public static void main(String args[])
+  {
+    int number[] (55,48,88,65,71); 
+    int nenumber.length;
+    int i;
+    System.out.println("Given list: "); 
+    for(i=0;i<n;i++)
+    {
+      System.out.println("" + number[i]);
+    }
+    System.out.println("\n"); 
+    for(int j=1;j<n;j++)
+    {
+      if(number[j-1]>number[j])
+      {
+          //interchange values 
+          int temp=number[j-1]; 
+          number[j-1]=number[j]; 
+          number[j]=temp;
+      }
+    }
+    System.out.println("Sorted list"); 
+    for(1-0;1<n;i++)
+    {
+      System.out.println(" "+number[1]);
+    }
+    System.out.println(" ");
+  }
+}
+      
